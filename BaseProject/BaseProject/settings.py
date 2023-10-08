@@ -27,6 +27,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Baseapp',
+    'Authentication',
+    'channels',
+
 ]
 
 MIDDLEWARE = [
@@ -40,6 +43,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'BaseProject.urls'
+
 
 TEMPLATES = [
     {
